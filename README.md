@@ -2,7 +2,8 @@
 Esta API calcula o número de combinações possíveis para um placar de jogo de futebol americano usando pontuações válidas.
 
 ## Estrutura do Projeto
-/ football-score-combination
+
+   / football-score-combination
    
     ├── app.py
     
@@ -19,7 +20,7 @@ Esta API calcula o número de combinações possíveis para um placar de jogo de
 ## Requisitos
 
 - Python 3.9
-- Docker (opcional)
+- Docker
 
 ## Instalação
 
@@ -44,12 +45,8 @@ Esta API calcula o número de combinações possíveis para um placar de jogo de
 
 ## Testes (em uma nova aba de terminal)
 
-    1. Rodando os testes localmente:
-        1.1 execute o comando 
-            pytest
-
-    2. Rodando os testes com o Docker:
-        2.1 encontre o ID do container
+   1. Rodando os testes com o Docker:
+        1.1 encontre o ID do container
             docker ps
-        2.2 execute os testes nesse container
+        1.2 execute os testes nesse container
             docker exec -it <container_id> pytest       
