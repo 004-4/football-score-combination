@@ -27,7 +27,7 @@ Esta API calcula o número de combinações possíveis para um placar de jogo de
     1. Clone este repositório:
         ```sh
         git clone https://github.com/004-4/football-score-combination.git
-        cd football-score-combination-main/football-score-combination
+        cd football-score-combination/football-score-combination
 
     2. Para executar localmente:
         2.1 crie um ambiente virtual 
