@@ -3,11 +3,17 @@ Esta API calcula o número de combinações possíveis para um placar de jogo de
 
 ## Estrutura do Projeto
 / football-score-combination
+   
     ├── app.py
+    
     ├── combinations.py
+    
     ├── Dockerfile
+    
     ├── requirements.txt
+    
     ├── test_app.py
+    
     └── docker-compose.yml
 
 ## Requisitos
