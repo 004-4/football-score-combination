@@ -36,14 +36,14 @@ Esta API calcula o número de combinações possíveis para um placar de jogo de
         3.1 construa e execute o contêiner:
             docker-compose up --build
 
-## Testes
+## Testes (em uma nova aba de terminal)
 
     1. Rodando os testes localmente:
-        1.1 em seu terminal execute o comando 
+        1.1 execute o comando 
             pytest
 
     2. Rodando os testes com o Docker:
-        2.1 encontre o ID do container em um novo terminal
+        2.1 encontre o ID do container
             docker ps
         2.2 execute os testes nesse container
-            docker exec -it <container_id_or_name> pytest       
+            docker exec -it <container_id> pytest       
