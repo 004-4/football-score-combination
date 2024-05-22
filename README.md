@@ -1,5 +1,14 @@
-# football-score-combination
+# FastAPI Football Score Combinations
 Esta API calcula o número de combinações possíveis para um placar de jogo de futebol americano usando pontuações válidas.
+
+## Estrutura do Projeto
+/
+├── app.py
+├── combinations.py
+├── Dockerfile
+├── requirements.txt
+├── test_app.py
+└── docker-compose.yml
 
 ## Requisitos
 
@@ -24,9 +33,17 @@ Esta API calcula o número de combinações possíveis para um placar de jogo de
             uvicorn app:app --host 0.0.0.0 --port 8080
 
     3. Para executar usando o Docker:
-        3.1 construa a imagem Docker:
-            docker build -t football-api .
-        3.2 execute o contêiner:
-            docker run -p 8080:8080 football-api
+        3.1 construa e execute o contêiner:
+            docker-compose up --build
 
-    observação: foi escolhido a api FastAPI de padrão GraphQL
+## Testes
+
+    1. Rodando os testes localmente:
+        1.1 em seu terminal execute o comando 
+            pytest
+
+    2. Rodando os testes com o Docker:
+        2.1 encontre o ID do container em um novo terminal
+            docker ps
+        2.2 execute os testes nesse container
+            docker exec -it <container_id_or_name> pytest       
