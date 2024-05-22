@@ -2,7 +2,7 @@
 Esta API calcula o número de combinações possíveis para um placar de jogo de futebol americano usando pontuações válidas.
 
 ## Estrutura do Projeto
-/
+/ football-score-combination
 ├── app.py
 ├── combinations.py
 ├── Dockerfile
