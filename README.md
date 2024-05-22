@@ -44,7 +44,8 @@ Esta API calcula o número de combinações possíveis para um placar de jogo de
             docker-compose up --build
 
 ## Testes (em uma nova aba de terminal)
-
+   
+   
    1. Rodando os testes com o Docker:
         1.1 encontre o ID do container
             docker ps
