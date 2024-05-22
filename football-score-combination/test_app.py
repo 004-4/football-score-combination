@@ -3,7 +3,7 @@ from app import app
 
 client = TestClient(app)
 
-def test_verify_score():
+def test_verify_valid_score():
     query = """
     mutation {
         verify(score: "3x15") {
